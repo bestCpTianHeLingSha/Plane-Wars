@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}						
+#id-canvas {
+    display: block;
+}	
+#end-menu{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #BBC1C2;
+    font-size: 20px;
+    line-height: 40px;
+    display: none;
+}
+#loading {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+     
+}
+
